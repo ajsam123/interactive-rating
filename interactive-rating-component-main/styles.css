@@ -1,0 +1,138 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: inherit;
+    border: none;
+
+}
+
+body{
+    background-color: hsl(216, 12%, 8%) ;
+    display: flex;
+    justify-content: center;
+    min-height: 100svh;
+    align-items: center;
+}
+
+
+
+.card-container{
+    background-color: hsl(213, 19%, 18%);
+    padding: 1.5rem;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    color: white;
+    justify-content: center;
+    max-width: 24rem;
+    margin: 15px;
+  
+
+}
+
+.rating-head{
+    font-weight:700 ;
+}
+
+.rating-body{
+    color: hsl(217, 12%, 63%);
+    line-height: 20px;
+    font-size: 15px;
+    padding-top: 17px;
+}
+
+.rating-numbers{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.rating-numbers > *{
+    border-radius: 999999px;
+    padding: 15px;
+    background-color: hsla(212, 34%, 85%, 0.04);
+    height: 45px;
+    width: 45px;
+    color: white;
+}
+.rating-numbers > *:hover{
+    background-color:hsl(0, 0%, 100%);
+    transition: 0.5s;
+    color: black;
+    cursor: pointer;
+}
+
+.icon-star-container{
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    background-color: hsla(212, 34%, 85%, 0.04);
+    border-radius: 999999px;
+}
+.icon-star{
+    max-width: 20px;
+}
+
+.submit-btn{
+    background-color: hsl(25, 97%, 53%);
+    padding: 10px;
+    border-radius: 99999px;
+    word-spacing: 20px;
+    /* margin: 5px; */
+}
+
+.submit-btn:hover{
+   background-color: hsl(0, 0%, 100%);
+   cursor: pointer;
+}
+
+.image-thank-you{
+    max-width: 150px;
+}
+.select-text-container{
+    background-color: hsla(212, 34%, 85%, 0.04);
+    height: 30px;
+    /* width: 20px; */
+    padding-inline: 15px;
+    display: grid;
+    place-items: center;
+    border-radius: 9999px;
+    color: hsl(25, 97%, 53%);
+    font-size: 15px;
+}
+
+.second-card-container{
+    background-color: hsl(213, 19%, 18%);
+    padding: 1.5rem;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    color: white;
+    justify-content: center;
+    max-width: 24rem;
+    margin: 15px;
+}
+.hidden{
+    display: none;
+}
+
+.second-card-container > *{
+    margin-inline: auto;
+    text-align: center;
+}
+
+.thank-you-body{
+    padding-top: 0px;
+}
+
+.thank-you-head{
+    padding-top: 10px;
+}
